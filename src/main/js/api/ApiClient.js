@@ -56,9 +56,7 @@ export default class ApiClient {
             credentials: 'include'
         };
 
-
         if (method !== 'get' && method !== 'head') {
-            if (process.env.BROWSER) body._csrf = document.head.querySelector('[name="_csrf"]').content;
             init.body = JSON.stringify(body);
         }
 
