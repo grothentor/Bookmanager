@@ -1,0 +1,13 @@
+node_modules
+src/main/resources/static/built
+.idea
+
+*.iml
+target
+bower_components
+node
+*.log
+asciidoctor.css
+README.html
+built
+dump.rdb
